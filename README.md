@@ -1,9 +1,20 @@
 # pivtol_cf
 
+# Login URL
+  https://console.run.pivotal.io/organizations/6be96811-fa48-48c2-bacb-ce5038211806/spaces/ecc4a05b-3844-46f6-81c4-b7cc781de4c6
+ Email : XXXX@gmail.com
+ Password: XXXXX
+ 
+#Application URL :
+  https://cf-demo-bright-koala-jt.cfapps.io/
+
+ 
+ 
+  
 # Install URL :
    https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
  
- # Login Setps
+ # cf connection Setps
  
  ```
  welcome@welcome-Inspiron-5558:~/cloudFoundry_pivotal/cf-sample-app-spring-master$ cf login
