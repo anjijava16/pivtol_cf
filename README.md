@@ -11,6 +11,16 @@
 # Application URL :
     https://cf-demo-bright-koala-jt.cfapps.io/
 
+
+# Ubuntu Installation Steps :
+ ```
+ 1.  wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
+ 2. echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
+ 3.  sudo apt-get update
+ 4.  sudo apt-get install cf-cli
+
+ 
+ ```
  
  
   
