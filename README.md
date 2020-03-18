@@ -12,6 +12,7 @@
     https://cf-demo-bright-koala-jt.cfapps.io/
 
 
+
 # Ubuntu Installation Steps :
  ```
  1.  wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
@@ -27,6 +28,49 @@
 # Install URL :
    https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
  
+ 
+# Cf Commands
+```
+  cf stop application_name
+  cf start application_name
+  # Delete Service
+  cf delete-service my-example-service-instan
+  # Delete Application
+  cf delete -r my-example-app
+ cf login
+API endpoint: https://api.run.pivotal.io
+
+Email: anjaiahspr@gmail.com
+
+Password: 
+Authenticating...
+OK
+
+Select an org:
+1. mmtech-quiz
+2. mmtechsoft
+
+Org (enter to skip): 2
+Targeted org mmtechsoft
+
+Select a space:
+1. development
+2. mmtech-webservice
+
+Space (enter to skip): 2
+Targeted space mmtech-webservice
+
+
+
+API endpoint:   https://api.run.pivotal.io (API version: 3.81.0)
+User:           anjaiahspr@gmail.com
+Org:            mmtechsoft
+Space:          mmtech-webservice
+welcome@welcome-Inspiron-5558:~/cloudFoundry_pivotal/cf-sample-app-spring-master$ cf push
+ 
+ 
+ 
+```
  # cf connection Setps
  
  ```
